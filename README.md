@@ -22,6 +22,9 @@ Save this as w12_no_bed_wipe.cfg:
 w12_no_bed_wipe.cfg
 
 ```bash
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2025 worgon12
+
 # Disable bed/slot wiping (for slot-less plates), keep silicone wiper
 
 [gcode_macro M1500]     # "go to wipe area" -> no-op
@@ -88,3 +91,4 @@ Start a print—there should be no bed/slot wipe anymore.
 ## License
 
 MIT © worgon12 — please keep this notice.
+
